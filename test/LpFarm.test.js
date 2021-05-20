@@ -2,7 +2,7 @@ const { ethers } = require('hardhat');
 const { expect } = require('chai');
 const { time, expectRevert } = require('@openzeppelin/test-helpers');
 
-describe('Test Farming', async () => {
+describe('Test LP Farming', async () => {
   let farmFactory, farmGenerator, farm, uniPair, uniFactory, moma, weth, vesting;
   let deployer, alice, bob, jack;
   let startBlock;
